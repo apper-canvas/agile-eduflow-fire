@@ -1,0 +1,188 @@
+[
+  {
+    "id": "1",
+    "title": "Introduction to React Development",
+    "description": "Learn the fundamentals of React including components, state management, and modern development practices. Perfect for beginners looking to build interactive web applications.",
+    "modules": [
+      {
+        "id": "1-1",
+        "title": "Getting Started with React",
+        "content": "Introduction to React concepts and setup",
+        "duration": 45
+      },
+      {
+        "id": "1-2",
+        "title": "Components and JSX",
+        "content": "Understanding React components and JSX syntax",
+        "duration": 60
+      },
+      {
+        "id": "1-3",
+        "title": "State and Props",
+        "content": "Managing component state and passing data with props",
+        "duration": 75
+      }
+    ],
+    "enrolledStudents": ["101", "102", "103", "104", "105"],
+    "createdBy": "admin",
+    "createdAt": "2024-01-15T09:00:00Z",
+    "category": "Programming",
+    "difficulty": "Beginner",
+    "estimatedHours": 20
+  },
+  {
+    "id": "2",
+    "title": "Advanced JavaScript Concepts",
+    "description": "Deep dive into advanced JavaScript topics including closures, prototypes, async programming, and ES6+ features for experienced developers.",
+    "modules": [
+      {
+        "id": "2-1",
+        "title": "Closures and Scope",
+        "content": "Understanding JavaScript closures and lexical scoping",
+        "duration": 90
+      },
+      {
+        "id": "2-2",
+        "title": "Prototypes and Inheritance",
+        "content": "JavaScript prototype chain and object-oriented programming",
+        "duration": 80
+      },
+      {
+        "id": "2-3",
+        "title": "Async Programming",
+        "content": "Promises, async/await, and event loop mechanics",
+        "duration": 100
+      }
+    ],
+    "enrolledStudents": ["102", "106", "107"],
+    "createdBy": "admin",
+    "createdAt": "2024-01-20T10:30:00Z",
+    "category": "Programming",
+    "difficulty": "Advanced",
+    "estimatedHours": 35
+  },
+  {
+    "id": "3",
+    "title": "UI/UX Design Fundamentals",
+    "description": "Master the principles of user interface and user experience design. Learn design thinking, wireframing, prototyping, and user research methodologies.",
+    "modules": [
+      {
+        "id": "3-1",
+        "title": "Design Thinking Process",
+        "content": "Understanding user-centered design methodology",
+        "duration": 70
+      },
+      {
+        "id": "3-2",
+        "title": "Wireframing and Prototyping",
+        "content": "Creating wireframes and interactive prototypes",
+        "duration": 85
+      },
+      {
+        "id": "3-3",
+        "title": "User Research Methods",
+        "content": "Conducting user interviews and usability testing",
+        "duration": 65
+      }
+    ],
+    "enrolledStudents": ["103", "108", "109", "110"],
+    "createdBy": "admin",
+    "createdAt": "2024-01-25T14:15:00Z",
+    "category": "Design",
+    "difficulty": "Intermediate",
+    "estimatedHours": 25
+  },
+  {
+    "id": "4",
+    "title": "Database Design and SQL",
+    "description": "Comprehensive course on relational database design, SQL queries, normalization, and database optimization techniques for modern applications.",
+    "modules": [
+      {
+        "id": "4-1",
+        "title": "Database Fundamentals",
+        "content": "Introduction to relational databases and RDBMS concepts",
+        "duration": 60
+      },
+      {
+        "id": "4-2",
+        "title": "SQL Queries and Joins",
+        "content": "Writing complex SQL queries and understanding table relationships",
+        "duration": 95
+      },
+      {
+        "id": "4-3",
+        "title": "Database Optimization",
+        "content": "Indexing, query optimization, and performance tuning",
+        "duration": 80
+      }
+    ],
+    "enrolledStudents": ["104", "105", "111"],
+    "createdBy": "admin",
+    "createdAt": "2024-02-01T11:20:00Z",
+    "category": "Database",
+    "difficulty": "Intermediate",
+    "estimatedHours": 30
+  },
+  {
+    "id": "5",
+    "title": "Digital Marketing Strategy",
+    "description": "Learn modern digital marketing techniques including SEO, social media marketing, content strategy, and analytics to grow your business online.",
+    "modules": [
+      {
+        "id": "5-1",
+        "title": "SEO Fundamentals",
+        "content": "Search engine optimization techniques and best practices",
+        "duration": 75
+      },
+      {
+        "id": "5-2",
+        "title": "Social Media Marketing",
+        "content": "Building brand presence across social platforms",
+        "duration": 65
+      },
+      {
+        "id": "5-3",
+        "title": "Analytics and Metrics",
+        "content": "Measuring and analyzing marketing campaign performance",
+        "duration": 70
+      }
+    ],
+    "enrolledStudents": ["106", "112", "113", "114"],
+    "createdBy": "admin",
+    "createdAt": "2024-02-05T13:45:00Z",
+    "category": "Marketing",
+    "difficulty": "Beginner",
+    "estimatedHours": 22
+  },
+  {
+    "id": "6",
+    "title": "Machine Learning Basics",
+    "description": "Introduction to machine learning algorithms, data preprocessing, model training, and evaluation using Python and popular ML libraries.",
+    "modules": [
+      {
+        "id": "6-1",
+        "title": "ML Fundamentals",
+        "content": "Introduction to machine learning concepts and types",
+        "duration": 90
+      },
+      {
+        "id": "6-2",
+        "title": "Data Preprocessing",
+        "content": "Cleaning and preparing data for machine learning models",
+        "duration": 85
+      },
+      {
+        "id": "6-3",
+        "title": "Model Training and Evaluation",
+        "content": "Training ML models and evaluating their performance",
+        "duration": 100
+      }
+    ],
+    "enrolledStudents": ["107", "115"],
+    "createdBy": "admin",
+    "createdAt": "2024-02-10T08:30:00Z",
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "estimatedHours": 40
+  }
+]

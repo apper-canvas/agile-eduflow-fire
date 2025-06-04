@@ -1,0 +1,200 @@
+[
+  {
+    "id": "quiz-1",
+    "courseId": "1",
+    "title": "React Fundamentals Quiz",
+    "timeLimit": 30,
+    "passingScore": 70,
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What is JSX in React?",
+        "type": "multiple-choice",
+        "options": ["JavaScript Extension", "Java Syntax Extension", "JavaScript XML", "JSON Extended"],
+        "correctAnswer": 2
+      },
+      {
+        "id": "q2",
+        "question": "React components must return a single root element.",
+        "type": "true-false",
+        "correctAnswer": true
+      },
+      {
+        "id": "q3",
+        "question": "Which hook is used for managing state in functional components?",
+        "type": "multiple-choice",
+        "options": ["useEffect", "useState", "useContext", "useReducer"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "q4",
+        "question": "What is the purpose of the key prop in React lists?",
+        "type": "short-answer",
+        "correctAnswer": "To help React identify which items have changed, are added, or are removed"
+      }
+    ],
+    "createdAt": "2024-01-16T10:00:00Z"
+  },
+  {
+    "id": "quiz-2",
+    "courseId": "2",
+    "title": "JavaScript Closures Assessment",
+    "timeLimit": 45,
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q5",
+        "question": "What is a closure in JavaScript?",
+        "type": "multiple-choice",
+        "options": ["A function that returns another function", "A function that has access to outer scope variables", "A way to close JavaScript files", "A method to close browser windows"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "q6",
+        "question": "Closures can cause memory leaks if not handled properly.",
+        "type": "true-false",
+        "correctAnswer": true
+      },
+      {
+        "id": "q7",
+        "question": "What will console.log output in this code: for(var i=0; i<3; i++) { setTimeout(() => console.log(i), 100); }",
+        "type": "multiple-choice",
+        "options": ["0, 1, 2", "3, 3, 3", "undefined, undefined, undefined", "0, 0, 0"],
+        "correctAnswer": 1
+      }
+    ],
+    "createdAt": "2024-01-21T11:30:00Z"
+  },
+  {
+    "id": "quiz-3",
+    "courseId": "3",
+    "title": "UX Design Principles Quiz",
+    "timeLimit": 25,
+    "passingScore": 80,
+    "questions": [
+      {
+        "id": "q8",
+        "question": "What does UX stand for?",
+        "type": "multiple-choice",
+        "options": ["User Extension", "User Experience", "Universal Exchange", "Unique Expression"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "q9",
+        "question": "User personas should be based on real user research data.",
+        "type": "true-false",
+        "correctAnswer": true
+      },
+      {
+        "id": "q10",
+        "question": "Which design principle focuses on making interfaces intuitive?",
+        "type": "multiple-choice",
+        "options": ["Accessibility", "Usability", "Aesthetics", "Functionality"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "q11",
+        "question": "What is the main goal of wireframing?",
+        "type": "short-answer",
+        "correctAnswer": "To plan the structure and layout of a page or screen without focusing on visual design"
+      }
+    ],
+    "createdAt": "2024-01-26T15:20:00Z"
+  },
+  {
+    "id": "quiz-4",
+    "courseId": "4",
+    "title": "SQL Basics Quiz",
+    "timeLimit": 40,
+    "passingScore": 70,
+    "questions": [
+      {
+        "id": "q12",
+        "question": "Which SQL command is used to retrieve data from a database?",
+        "type": "multiple-choice",
+        "options": ["GET", "FETCH", "SELECT", "RETRIEVE"],
+        "correctAnswer": 2
+      },
+      {
+        "id": "q13",
+        "question": "A foreign key can have duplicate values.",
+        "type": "true-false",
+        "correctAnswer": true
+      },
+      {
+        "id": "q14",
+        "question": "What does INNER JOIN return?",
+        "type": "multiple-choice",
+        "options": ["All records from both tables", "Records that match in both tables", "Records from the left table only", "Records from the right table only"],
+        "correctAnswer": 1
+      }
+    ],
+    "createdAt": "2024-02-02T12:15:00Z"
+  },
+  {
+    "id": "quiz-5",
+    "courseId": "5",
+    "title": "Digital Marketing Quiz",
+    "timeLimit": 35,
+    "passingScore": 65,
+    "questions": [
+      {
+        "id": "q15",
+        "question": "What does SEO stand for?",
+        "type": "multiple-choice",
+        "options": ["Social Engine Optimization", "Search Engine Optimization", "Site Enhancement Operations", "System Error Override"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "q16",
+        "question": "Content marketing is only about creating blog posts.",
+        "type": "true-false",
+        "correctAnswer": false
+      },
+      {
+        "id": "q17",
+        "question": "Which metric measures the percentage of visitors who leave after viewing only one page?",
+        "type": "multiple-choice",
+        "options": ["Conversion Rate", "Click-through Rate", "Bounce Rate", "Exit Rate"],
+        "correctAnswer": 2
+      }
+    ],
+    "createdAt": "2024-02-06T14:30:00Z"
+  },
+  {
+    "id": "quiz-6",
+    "courseId": "6",
+    "title": "Machine Learning Concepts Quiz",
+    "timeLimit": 50,
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q18",
+        "question": "What is supervised learning?",
+        "type": "multiple-choice",
+        "options": ["Learning without labeled data", "Learning with labeled training data", "Learning by trial and error", "Learning from user feedback"],
+        "correctAnswer": 1
+      },
+      {
+        "id": "q19",
+        "question": "Overfitting occurs when a model performs well on training data but poorly on new data.",
+        "type": "true-false",
+        "correctAnswer": true
+      },
+      {
+        "id": "q20",
+        "question": "Which algorithm is commonly used for classification tasks?",
+        "type": "multiple-choice",
+        "options": ["Linear Regression", "K-Means", "Decision Trees", "Principal Component Analysis"],
+        "correctAnswer": 2
+      },
+      {
+        "id": "q21",
+        "question": "What is the purpose of cross-validation in machine learning?",
+        "type": "short-answer",
+        "correctAnswer": "To assess how well a model will generalize to new, unseen data"
+      }
+    ],
+    "createdAt": "2024-02-11T09:45:00Z"
+  }
+]
